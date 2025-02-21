@@ -2,6 +2,8 @@ import MovieCards from "./MovieCards";
 import PropTypes from 'prop-types'
 
 function MovieList(props) {
+
+ 
  return (
   <>
    <section className="container mx-auto p-4">
@@ -11,6 +13,7 @@ function MovieList(props) {
        <MovieCards
        key={item.movie_id}
        title={item.title}
+       posterurl={item.posterurl}
        description={item.description}
        rating={item.rating} />
       );

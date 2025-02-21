@@ -6,6 +6,8 @@ const { Meta } = Card;
 
 
 function MovieCards(props) {
+
+  
  return (
   <>
    <section className="container mx-auto p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
